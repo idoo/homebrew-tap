@@ -1,7 +1,7 @@
 class Hamn < Formula
   desc "App Store Connect MCP server: ship iOS and macOS apps from your agent"
   homepage "https://github.com/idoo/hamn"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   livecheck do
@@ -11,23 +11,23 @@ class Hamn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/idoo/hamn/releases/download/v0.1.2/hamn_0.1.2_darwin_arm64.tar.gz"
-      sha256 "9913bd5b7a27fd73ade1364139ea6fb88ad88826fc06259669d5191bcfe0102a"
+      url "https://github.com/idoo/hamn/releases/download/v0.1.3/hamn_0.1.3_darwin_arm64.tar.gz"
+      sha256 "bb786b2846efebb2dc574112aafaf717cf4039c27b9606fa7a06a5e3146485b6"
     end
     on_intel do
-      url "https://github.com/idoo/hamn/releases/download/v0.1.2/hamn_0.1.2_darwin_amd64.tar.gz"
-      sha256 "643354e407ac16fbc74e9ec8dd1cc6839ffac309af82d24a93b714abe4d1916a"
+      url "https://github.com/idoo/hamn/releases/download/v0.1.3/hamn_0.1.3_darwin_amd64.tar.gz"
+      sha256 "631dcf1667c1fee34d719a3e45848cff98691c1c1e34397e46f6600b07e806b6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/idoo/hamn/releases/download/v0.1.2/hamn_0.1.2_linux_arm64.tar.gz"
-      sha256 "565058c01156d31172d22b4d09c14d5278cdca2cc094929b0e9d72047874596d"
+      url "https://github.com/idoo/hamn/releases/download/v0.1.3/hamn_0.1.3_linux_arm64.tar.gz"
+      sha256 "075db89405042f5b4ec0a5fbc7623754017c02af5168584637fbb7dcb89312e3"
     end
     on_intel do
-      url "https://github.com/idoo/hamn/releases/download/v0.1.2/hamn_0.1.2_linux_amd64.tar.gz"
-      sha256 "abe4609f5271efc8149e2bbb8099fad56438f4233750c8f946e51324805c673c"
+      url "https://github.com/idoo/hamn/releases/download/v0.1.3/hamn_0.1.3_linux_amd64.tar.gz"
+      sha256 "6831e0d45a0427ba16fafdb963d78e8602eeb4ae09d45921fcb6b2851fbb1fc7"
     end
   end
 
