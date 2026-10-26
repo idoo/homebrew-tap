@@ -1,7 +1,7 @@
 class AppStoreConnectMcp < Formula
   desc "App Store Connect MCP server: ship iOS and macOS apps from your agent"
   homepage "https://github.com/idoo/app-store-connect-mcp"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   livecheck do
@@ -11,23 +11,23 @@ class AppStoreConnectMcp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.4.0/app-store-connect-mcp_0.4.0_darwin_arm64.tar.gz"
-      sha256 "68e1c08abf6e999fbc2b92df0554e709b9acb16c26a16f28590fb9e130a3eaec"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.5.0/app-store-connect-mcp_0.5.0_darwin_arm64.tar.gz"
+      sha256 "0c3b9f61f5f3089eb3fc23c6f5a75f1abcd8f873a2e1ae3d8d4f2146c9e505cf"
     end
     on_intel do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.4.0/app-store-connect-mcp_0.4.0_darwin_amd64.tar.gz"
-      sha256 "121414c72bef33f20bf4d146ff79146f561619dcf5965f50b2dfa990dc909b79"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.5.0/app-store-connect-mcp_0.5.0_darwin_amd64.tar.gz"
+      sha256 "daab22d2e0a0698a58cf62bfb85cc73fe8723cb046f2aeae8bd179850184555b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.4.0/app-store-connect-mcp_0.4.0_linux_arm64.tar.gz"
-      sha256 "92170cd0534579ea435c5ed0efa49c5d1bee443391518065960710f0ab31976c"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.5.0/app-store-connect-mcp_0.5.0_linux_arm64.tar.gz"
+      sha256 "b906fb1c4b10cd3bae5971f214e1013ec5c4a0dbeee68b0180790932c6b4d769"
     end
     on_intel do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.4.0/app-store-connect-mcp_0.4.0_linux_amd64.tar.gz"
-      sha256 "4fb3ef07a2804da757042e4986ee2a18c7914ff3bf6bc055709c62f6c042b3f0"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.5.0/app-store-connect-mcp_0.5.0_linux_amd64.tar.gz"
+      sha256 "20d2c6ee79dd22a448d5205b3b9f3d18404ecff358f2288b7f1e6de9a4ff6855"
     end
   end
 
