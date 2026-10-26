@@ -1,7 +1,6 @@
 class AppStoreConnectMcp < Formula
-  desc "App Store Connect MCP server: ship iOS and macOS apps from your agent"
+  desc "MCP server to ship iOS and macOS apps through App Store Connect"
   homepage "https://github.com/idoo/app-store-connect-mcp"
-  version "0.8.0"
   license "MIT"
 
   livecheck do
@@ -11,23 +10,23 @@ class AppStoreConnectMcp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.8.0/app-store-connect-mcp_0.8.0_darwin_arm64.tar.gz"
-      sha256 "8809177cb41455928ba2f2110f2933107943c9d0a878a8bd2adb168ee6c411a8"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.9.0/app-store-connect-mcp_0.9.0_darwin_arm64.tar.gz"
+      sha256 "88eefc3dfcd5aad83242766577b560686562d46d65b9ad562e3cf3a69e8f9eab"
     end
     on_intel do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.8.0/app-store-connect-mcp_0.8.0_darwin_amd64.tar.gz"
-      sha256 "fd7878ea658e968a8bce78b9e7a005281dc255a3cd7edf7db970f6477c0a3093"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.9.0/app-store-connect-mcp_0.9.0_darwin_amd64.tar.gz"
+      sha256 "e4b36e8e220b9c8d404b3b8cfa886e2048a91d547b055233238350c8e98715dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.8.0/app-store-connect-mcp_0.8.0_linux_arm64.tar.gz"
-      sha256 "3318095fa4fabfc05f3da46efe921b448f0c3b1763c4921cfb4ed34dfa10ae00"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.9.0/app-store-connect-mcp_0.9.0_linux_arm64.tar.gz"
+      sha256 "ae9260a722e9d51c03a5f648e820a172514dbecac3a22f5adf2bff237cba2f59"
     end
     on_intel do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.8.0/app-store-connect-mcp_0.8.0_linux_amd64.tar.gz"
-      sha256 "9e1cf734fe8fd9ae44956dc4982203b547529fcddef42908672b5d96d0f27f68"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.9.0/app-store-connect-mcp_0.9.0_linux_amd64.tar.gz"
+      sha256 "4893942a2f7129c1be90f4d4922938e8a2e099eed03f6172195e07f2323fa76a"
     end
   end
 
