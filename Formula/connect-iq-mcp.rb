@@ -1,7 +1,7 @@
 class ConnectIqMcp < Formula
   desc "MCP server for Garmin Connect IQ developers"
   homepage "https://github.com/idoo/connect-iq-mcp"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   livecheck do
@@ -11,23 +11,23 @@ class ConnectIqMcp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.0/connect-iq-mcp_0.1.0_darwin_arm64.tar.gz"
-      sha256 "e23148a628a0e612a37962e2a4f0ec34a5aef0b7b73d391f5e99af5ff350d416"
+      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.1/connect-iq-mcp_0.1.1_darwin_arm64.tar.gz"
+      sha256 "49674d01362e5a136b39bff266e80acfa502827d42f54d177a438a9765de5302"
     end
     on_intel do
-      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.0/connect-iq-mcp_0.1.0_darwin_amd64.tar.gz"
-      sha256 "ed9dea8d7207647dec7b2218368dfef141ffd13dfbb9127c019fd2d369229c23"
+      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.1/connect-iq-mcp_0.1.1_darwin_amd64.tar.gz"
+      sha256 "101707a2f98710460ceebd5956d67946166e3b2596de22f1215316a90dab730f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.0/connect-iq-mcp_0.1.0_linux_arm64.tar.gz"
-      sha256 "76cc2acdb3f5e5756c38f8b83ce06dd926e1bb4264af201f5f9783988a4e5cf0"
+      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.1/connect-iq-mcp_0.1.1_linux_arm64.tar.gz"
+      sha256 "791650655726d6db85c08a0232b0ffb5d5f5529fda790a9b92439a31dc52a12c"
     end
     on_intel do
-      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.0/connect-iq-mcp_0.1.0_linux_amd64.tar.gz"
-      sha256 "bc60a2f87b0d7c1a87e1982b3ebe4f00249b5097cee7f6b5019207a8ce372668"
+      url "https://github.com/idoo/connect-iq-mcp/releases/download/v0.1.1/connect-iq-mcp_0.1.1_linux_amd64.tar.gz"
+      sha256 "f3caf5f3b8444a2a68f91a487715d6019479763c9a381068a284b87c8e7c2fbc"
     end
   end
 
