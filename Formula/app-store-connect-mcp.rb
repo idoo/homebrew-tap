@@ -10,23 +10,23 @@ class AppStoreConnectMcp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.24.0/app-store-connect-mcp_0.24.0_darwin_arm64.tar.gz"
-      sha256 "233f44500d0b3d46b7f0f8b3f705c05eb01bf45c27200cf541dbb8b2676de274"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.25.0/app-store-connect-mcp_0.25.0_darwin_arm64.tar.gz"
+      sha256 "ae6e3f8f76667d1840768c8dc75a23a7093d2d15eb83a7951daa6a864520ad0e"
     end
     on_intel do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.24.0/app-store-connect-mcp_0.24.0_darwin_amd64.tar.gz"
-      sha256 "cf63155d780ec39d957c8f11405ab9ded51a0d2a762076139a6d1983d9492adf"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.25.0/app-store-connect-mcp_0.25.0_darwin_amd64.tar.gz"
+      sha256 "164657282ab2d0fa259cfa8db7bc258b47eb268362652ce0cfd65eebc37f403d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.24.0/app-store-connect-mcp_0.24.0_linux_arm64.tar.gz"
-      sha256 "a9043fe7fa955c142ed7ed0359de8fe266336bf60ad3b99544692135f975e20b"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.25.0/app-store-connect-mcp_0.25.0_linux_arm64.tar.gz"
+      sha256 "d39dc8cc3440da1f1b8bcf95323358857aa09d7c533c4b5c66242c7403570140"
     end
     on_intel do
-      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.24.0/app-store-connect-mcp_0.24.0_linux_amd64.tar.gz"
-      sha256 "9c3cd57f1629f7522ed4051abe3749df9ffb236e6911d6f14505e31494f528b2"
+      url "https://github.com/idoo/app-store-connect-mcp/releases/download/v0.25.0/app-store-connect-mcp_0.25.0_linux_amd64.tar.gz"
+      sha256 "7c5e0986a641a58d6b73f788cc104e8492e8ae046fa145ec9a58aca0621e5315"
     end
   end
 
